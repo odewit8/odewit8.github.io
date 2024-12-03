@@ -30,4 +30,4 @@ More specifically, I focus on
 In my work I have studied a model for lane forming ants (see [Publications](https://odewit8.github.io/publications/) for a link to the paper).
 
 A main challenge in studying this model, and other models for active matter, is that it does not have a gradient flow structure,
-$$ \partial_t f\neq\nabla\cdot(f\nabla U). $$
+<p>$$ \partial_t f\neq\nabla\cdot(f\nabla U). $$</p>
