@@ -18,11 +18,16 @@ I am interested in mathematically understanding the emergence of collective beha
 
 I specialize in studying these phenomena using
 * Stochastic interacting particle systems,
-* Mean-field limit partial differential equations.
-More specifically, I focus on
-* Rigorous mean-field limits,
-* PDE analysis (well-posedness, (non)linear stability),
-* Numerical PDE and SDE schemes,
-* Numerical analysis.
+* Mean-field limit partial differential equations (PDEs).
 
-![Ants](./images/anim_N=30_v0=2.5_ϵ=1.0e-5_λ=0.1_DR=1.0_γ=2000.0_α=1.0_ustrength=0.0_dt=0.001_seed=1739_DT=0.001_DR=1.0_T=1.0.gif)
+More specifically, I focus on
+* PDE analysis (well-posedness, (non)linear stability, bifurcations),
+* Numerical PDE and SDE schemes,
+* Numerical analysis,
+* Rigorous mean-field limits,
+* Parameter inference from data.
+
+In my work I have studied a model for lane forming ants (see Publications for a link to the paper).
+
+A main challenge in studying this model, and other models for active matter, is that it does not have a gradient flow structure,
+$$\partial_t f=\nabla\cdot(f\nabla U).$$
