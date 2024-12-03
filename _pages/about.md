@@ -27,7 +27,7 @@ More specifically, I focus on
 * Rigorous mean-field limits,
 * Parameter inference from data.
 
-In my work I have studied a model for lane forming ants (see [Publications](https://odewit8.github.io/publications/) for a link to the paper).
+In my work I have studied a model for lane forming ants, together with my co-authors (see [Publications](https://odewit8.github.io/publications/) for a link to the paper). The model that I studied there is a so-called *active matter* model.
 
 A main challenge in studying this model, and other models for active matter, is that it does not have a gradient flow structure,
 <p>$$ \partial_t f\neq\nabla\cdot(f\nabla U). $$</p>
