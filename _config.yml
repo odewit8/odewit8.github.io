@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Oscar de Wit personal website"
+title                    : "Oscar de Wit personal"
 title_separator          : "-"
 name                     : &name "Oscar de Wit"
 description              : &description "personal description"
@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "PhD student"
   location         : "Oxford, UK"
-  employer         : "University of Cambridge"
+  employer         : "University of Cambridge, University of Oxford"
   uri              : # URL
   email            : "od275@cam.ac.uk" 
 
