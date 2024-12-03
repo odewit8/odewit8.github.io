@@ -9,7 +9,7 @@ redirect_from:
 
 About me
 ======
-I am currently a final year PhD student at the University of Cambridge. In Cambridge, I am affiliated with the Department of Applied Mathematics and Theoretical Physics [(DAMTP)](https://www.damtp.cam.ac.uk/). In Oxford, I am a Recognised Visiting Student at the [Mathematical Institute](https://www.maths.ox.ac.uk/), where my PhD supervisor is, [Maria Bruna](https://people.maths.ox.ac.uk/bruna/).
+I am currently a final year PhD student at the University of Cambridge. In Cambridge, I am affiliated with the Department of Applied Mathematics and Theoretical Physics ([DAMTP](https://www.damtp.cam.ac.uk/)). In Oxford, I am a Recognised Visiting Student at the [Mathematical Institute](https://www.maths.ox.ac.uk/), where my PhD supervisor is, [Maria Bruna](https://people.maths.ox.ac.uk/bruna/).
 
 Research
 ======

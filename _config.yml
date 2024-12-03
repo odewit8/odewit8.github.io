@@ -21,7 +21,7 @@ repository               : #
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "ccimiphotocrop.jpg"
   name             : "Oscar de Wit"
   pronouns         : # example: "she/her"  
   bio              : "PhD student"
