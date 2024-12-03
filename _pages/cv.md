@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* PhD in Mathematics, University of Cambridge, DAMTP, "Mathematics of Information" doctoral training programme of Cantab Capital Institute for Mathematics of Information (CCIMI), 2021-2025
+* PhD, Mathematics, University of Cambridge, DAMTP, "Mathematics of Information" doctoral training programme of Cantab Capital Institute for Mathematics of Information (CCIMI), 2021-2025
 * MASt, Mathematics, "Part III", University of Cambridge, 2020-2021
 * BSc, Mathematics, Radboud University Nijmegen, 2017-2020
 * BSc, Physics & Astronomy, Radboud University Nijmegen, 2017-2020
