@@ -14,4 +14,4 @@ I am currently a final year PhD student at the University of Cambridge. In Cambr
 Research
 ======
 I am interested in mathematically understanding the emergence of order in groups of animals. Examples of this emergence are lane formation in groups of ants or pedestrians or flocking in birds.
-<![lanes](images/lanes.png)>
+<iframe src="https://giphy.com/embed/KJQva3zYQ2rni" width="480" height="269" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/tokyo-crossing-shibuya-KJQva3zYQ2rni">via GIPHY</a></p>
