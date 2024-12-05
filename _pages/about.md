@@ -9,7 +9,7 @@ redirect_from:
 
 <h1>About me</h1>
 <p style='text-align: justify;'> 
-I am currently a final year PhD student at the University of Cambridge. In Cambridge, I am affiliated with the Department of Applied Mathematics and Theoretical Physics  (<a href="https://www.damtp.cam.ac.uk/">DAMTP</a>). In Oxford, I am a Recognised Visiting Student at the <a href="https://www.maths.ox.ac.uk/">Mathematical Institute</a>, where my PhD supervisor is, <a href="https://people.maths.ox.ac.uk/bruna/">Maria Bruna</a>.
+I am currently a final year PhD student at the University of Cambridge. In Cambridge, I am affiliated with the Department of Applied Mathematics and Theoretical Physics  (<a href="https://www.damtp.cam.ac.uk/">DAMTP</a>). In Oxford, I am a Recognised Visiting Student at the <a href="https://www.maths.ox.ac.uk/">Mathematical Institute</a>, where my PhD supervisor is, <a href="https://people.maths.ox.ac.uk/bruna/">Maria Bruna</a>.</p>
 
 <h1>Research</h1>
 <p style='text-align: justify;'> 
@@ -50,8 +50,8 @@ In my work I have studied a SDE model for lane forming ants, together with my co
 </p>
 
 <p align="middle">
-  <img src="images/clusters.gif" width="250" />
-  <img src="images/clusters2.gif" width="250" /> 
+  <img src="images/clusters.gif" width="300" />
+  <img src="images/clusters2.gif" width="300" /> 
 </p>
 
 <!-- <p align="middle">
