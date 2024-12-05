@@ -73,7 +73,7 @@ In our case, for active matter PDE models, the PDE cannot be of this form. To gi
 
 $$ \partial_t f=\nabla\cdot[\nabla f-\nabla V f], $$
 
-where we have exponential relaxation to the unique normalised steady state \(f_\infty=\frac{1}{\int\exp(V)\mathrm{d}x}\exp(V)\) for some potential \(V(\mathbf{x})\), and the second model is 
+where we have exponential relaxation to the unique normalised steady state \(f_\infty=\frac{1}{\int\mathrm{e}^V\mathrm{d}x}\mathrm{e}^V\) for some potential \(V(\mathbf{x})\), and the second model is 
 
 $$ \partial_t f=\nabla\cdot[\nabla f-(\nabla V+ \mathbf{U)f}], $$
 
