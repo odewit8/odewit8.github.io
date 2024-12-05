@@ -24,12 +24,13 @@ I specialize in studying these phenomena using
 </ul> 
 
 Particularly, I am interested in modelling large collectives of animals as stochastic interacting particle systems and study them in the <em>mean-field</em> limit. This limit gives a description of the particle model by going from the \(N\times d\)-dimesional SDE model to a \(d\)-dimensional PDE model, called the <em>mean-field limit PDE</em>, by taking the number of particles to infinity, \(N\to\infty\). Using the mean-field limit PDE, particle behaviours like lane formation can be studied as a PDE dynamics.
-
+</p>
+<p style='text-align: justify;'> 
 Schematically, I consider systems of SDEs which can be written as
 
 $$ \mathrm{d}\mathbf{X}_t^i=\sum_{j\neq i}\mathbf{b}(\mathbf{X}_t^i,\mathbf{X}_t^j)\mathrm{d}t+\sqrt{2}\mathrm{d}\mathbf{W}_t^i, \ i=1,\dots,N$$
 
-for some drift function \(\mathbf{b}\). In the mean-field limt the $k$-marginals of the law \(f^{(k)}_t(t,\mathbf{x}_i)\) converge to a tensorised product of \(f(t,\mathbf{x})\), in some metric topology, for any $k$,
+for some drift function \(\mathbf{b}\). In the mean-field limt the \(k\)-marginals of the law \(f^{(k)}_t(t,\mathbf{x}_i)\) converge to a tensorised product of \(f(t,\mathbf{x})\), in some metric topology, for any \(k\),
 
 $$ d(f^{(k)}_t,f(t)^{\otimes k})\to 0 \ \mathrm{as} \ N\to\infty.$$
 
@@ -53,6 +54,22 @@ In my work I have studied a SDE model for lane forming ants, together with my co
   <img src="images/clusters.gif" width="300" />
   <img src="images/clusters2.gif" width="300" /> 
 </p>
+
+<p style='text-align: justify;'> 
+The first is an aggregation type behaviour. The second is the formation of a traveling cluster. In the paper we explain how this is related to lane formation and ant antennas.
+</p>
+
+<p style='text-align: justify;'> 
+An interesting feature of the PDE for our ant model, and of many other PDEs used to study so-called <em>active matter</em> such as ants, birds and pedestrians, is that the PDE is different from a particular class of PDEs for which a substantial level of understanding has been achieved. This is the class PDEs that can be written in the form 
+
+$$ \partial_t f=\nabla\cdot\left(f\frac{\delta\mathcal{F}}{\delta\mathcal{f}}\right),$$
+
+where \(\mathcal{F}\) is a functional of \(f\). These are PDEs that can be described as a <em>gradient flow</em> and the functional \(\mathcal{F}\) can be used to describe the PDE dynamics via a LaSalle Invariance Principle (see, for example, this <a href="https://doi.org/10.1016/j.jde.2022.11.028">paper</a>).
+</p>
+
+<!-- <p style='text-align: justify;'> 
+In our case, for active matter PDE models, the PDE is not of this form and it is not clear if such a functional \(\mathcal{F}\) exists. To give an example of two linear models 
+</p> -->
 
 <!-- <p align="middle">
   <img src="images/output.gif" width="400" />
