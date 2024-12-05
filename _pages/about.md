@@ -13,7 +13,7 @@ I am currently a final year PhD student at the University of Cambridge. In Cambr
 
 <h1>Research</h1>
 <p style='text-align: justify;'> 
-I am interested in mathematically understanding the emergence of collective behaviour in groups of animals. Examples of this emergence are lane formation in groups of ants or pedestrians, or flocking in birds.
+I am interested in mathematically understanding the emergence of collective behaviour in groups of animals. Examples of this emergent behaviour are lane formation in groups of ants or pedestrians, or flocking in birds.
 </p>
 <iframe src="https://giphy.com/embed/KJQva3zYQ2rni" width="480" height="269" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/tokyo-crossing-shibuya-KJQva3zYQ2rni">Street crossing in Tokyo</a></p>
 <p style='text-align: justify;'> 
@@ -23,14 +23,14 @@ I specialize in studying these phenomena using
   <li>Partial differential equations (PDEs).</li>
 </ul> 
 
-Particularly, I am interested in modelling large collectives of animals as stochastic interacting particle systems and study them in the <em>mean-field</em> limit. This limit gives a description of the particle model by going from the \(N\times d\)-dimesional SDE model to a \(d\)-dimensional PDE model, called the <em>mean-field limit PDE</em>, by taking the number of particles to infinity, \(N\to\infty\). Using the mean-field limit PDE, particle behaviours like lane formation can be studied as a PDE dynamics.
+Particularly, I am interested in modelling large collectives of animals as stochastic interacting particle systems and study them in the <em>mean-field</em> limit. This limit gives a description of the particle model by going from the \(N\times d\)-dimesional SDE model to a \(d\)-dimensional PDE model, called the <em>mean-field limit PDE</em>, by taking the number of particles to infinity, \(N\to\infty\). Using the mean-field limit PDE, particle behaviours like lane formation can be studied as a dynamics of this mean-field limit PDE.
 </p>
 <p style='text-align: justify;'> 
 Schematically, I consider systems of SDEs which can be written as
 
 $$ \mathrm{d}\mathbf{X}_t^i=\sum_{j\neq i}\mathbf{b}(\mathbf{X}_t^i,\mathbf{X}_t^j)\mathrm{d}t+\sqrt{2}\mathrm{d}\mathbf{W}_t^i, \ i=1,\dots,N$$
 
-for some drift function \(\mathbf{b}\). In the mean-field limt the \(k\)-marginals of the law \(f^{(k)}_t(t,\mathbf{x}_i)\) converge to a tensorised product of \(f(t,\mathbf{x})\), in some metric topology, for any \(k\),
+for some drift function \(\mathbf{b}\). In the mean-field limt the \(k\)-marginals of the law \(f^{(k)}_t(t,\mathbf{x}_i)\) converge to a tensorised product of \(f(t,\mathbf{x})\), in some \(d\)-metric topology, for any \(k\),
 
 $$ d(f^{(k)}_t,f(t)^{\otimes k})\to 0 \ \mathrm{as} \ N\to\infty.$$
 
@@ -38,16 +38,16 @@ The density \(f\) is a solution of the mean-field limit PDE and is, in this case
 
 $$ \partial_t f=\nabla\cdot[\nabla f-\mathbf{b} f].$$
 
-With the SDEs and PDEs that describe collective behaviour in mind, I focus on
+With this way that SDEs and PDEs that describe collective behaviour in mind, I focus on
 <ul>
   <li>PDE analysis (well-posedness, (non)linear stability, bifurcations),</li>
-  <li>Numerical PDE and SDE schemes,</li>
-  <li>Numerical analysis,</li>
+  <li>Developing numerical PDE and SDE schemes,</li>
+  <li>Numerical analysis of these schemes,</li>
   <li>Rigorous mean-field limits,</li>
-  <li>Parameter inference from data for SDEs.</li>
+  <li>SDE parameter inference from data.</li>
 </ul> 
 
-In my work I have studied a SDE model for lane forming ants, together with my co-authors (see <a href="https://odewit8.github.io/publications/">Publications</a> for a link to the paper). We found the following two typical behaviours.
+In my work I have studied a model for lane forming ants, together with my co-authors (see <a href="https://odewit8.github.io/publications/">Publications</a> for a link to the paper). We found the following two typical behaviours.
 </p>
 
 <p align="middle">
@@ -60,18 +60,30 @@ The first is an aggregation type behaviour. The second is the formation of a tra
 </p>
 
 <p style='text-align: justify;'> 
-An interesting feature of the PDE for our ant model, and of many other PDEs used to study so-called <em>active matter</em> such as ants, birds and pedestrians, is that the PDE is different from a particular class of PDEs for which a substantial level of understanding has been achieved. This is the class PDEs that can be written in the form 
+An interesting feature of the PDE for our ant model, and of many other PDEs used to study models of so-called <em>active matter</em> such as ants, birds and pedestrians, is that the PDE is different from a particular class of PDEs for which a substantial level of understanding has been achieved. This is the class PDEs that can be written in the form 
 
 $$ \partial_t f=\nabla\cdot\left(f\frac{\delta\mathcal{F}}{\delta\mathcal{f}}\right),$$
 
 where \(\mathcal{F}\) is a functional of \(f\). These are PDEs that can be described as a <em>gradient flow</em> and the functional \(\mathcal{F}\) can be used to describe the PDE dynamics via a LaSalle Invariance Principle (see, for example, this <a href="https://doi.org/10.1016/j.jde.2022.11.028">paper</a>).
 </p>
 
-<!-- <p style='text-align: justify;'> 
-In our case, for active matter PDE models, the PDE is not of this form and it is not clear if such a functional \(\mathcal{F}\) exists. To give an example of two linear models 
-</p> -->
+<p style='text-align: justify;'> 
+In our case, for active matter PDE models, the PDE cannot be of this form. To give an example of how gradient flow dynamics can be different from a model that is not of the above form, we can consider the following two linear models. The first model has a mean-field limit PDE of the form
 
-<!-- <p align="middle">
-  <img src="images/output.gif" width="400" />
-  <img src="images/output2.gif" width="400" /> 
-</p> -->
+$$ \partial_t f=\nabla\cdot[\nabla f-\nabla V f], $$
+
+where we have exponential relaxation to the unique normalised steady state \(f=\frac{1}{\int\exp(V)\mathrm{d}x}\exp(V)\), and the second model is 
+
+$$ \partial_t f=\nabla\cdot[\nabla f-(\nabla V+ \mathbf{U)f}], $$
+
+such that the perturbation \(\mathbf{U}\) satisfies \(\nabla\cdot\mathbf{U}=0\) and \(\mathbf{U}\perp\nabla V\). The typical particle behaviour for these models is very different. 
+</p>
+
+<p align="middle">
+  <img src="images/lineargf.gif" width="300" />
+  <img src="images/linearngf.gif" width="300" /> 
+</p>
+
+<p style='text-align: justify;'> 
+In general, I am interested in studying these type of active matter models.
+</p>
