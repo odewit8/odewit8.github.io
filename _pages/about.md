@@ -33,6 +33,6 @@ A main challenge in studying this model, and other models for active matter, is 
 <p>$$ \partial_t f\neq\nabla\cdot(f\nabla U). $$</p>
 
 <p align="middle">
-  <img src="images/output.gif" width="30" />
-  <img src="images/output.gif" width="30" /> 
+  <img src="images/output.gif" width="100" />
+  <img src="images/output2.gif" width="100" /> 
 </p>
