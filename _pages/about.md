@@ -23,18 +23,18 @@ I specialize in studying these phenomena using
   <li>Partial differential equations (PDEs).</li>
 </ul> 
 
-Particularly, I am interested in modelling large collectives of animals as stochastic interacting particle systems and study them in the <em>mean-field</em> limit. This limit gives a description of the particle model by going from the \(N\times d\)-dimesional SDE model to a \(d\)-dimensional PDE model, called the <em>mean-field limit PDE</em>, by taking the number of particles to infinity, \(N\to\infty\). Using the mean-field limit PDE, particle behaviours like lane formation can be studied as a dynamics of this mean-field limit PDE.
+Particularly, I am interested in modelling large collectives of animals as stochastic interacting particle systems and studying them in the <em>mean-field</em> limit. This limit gives a description of the particle model by going from the \(N\times d\)-dimesional SDE model to a \(d\)-dimensional PDE model, called the <em>mean-field limit PDE</em>, by taking the number of particles to infinity, \(N\to\infty\). Using the mean-field limit PDE, particle behaviours like lane formation can be studied as a dynamics of this mean-field limit PDE.
 </p>
 <p style="text-align: justify; border: 2px solid black; padding: 0.5em"> 
 Schematically, I consider systems of SDEs which can be written as
 
 $$ \mathrm{d}\mathbf{X}_t^i=\sum_{j\neq i}\mathbf{b}(\mathbf{X}_t^i,\mathbf{X}_t^j)\mathrm{d}t+\sqrt{2}\mathrm{d}\mathbf{W}_t^i, \ i=1,\dots,N $$
 
-for some drift function \(\mathbf{b}\). In the mean-field limit the \(k\)-marginals of the law \(f^{(k)}_t(t,(\mathbf{x}_i)_i)\) converge to a tensorised product of \(f(t,\mathbf{x})\), in some \(d\)-metric topology, for any \(k\),
+for some drift function \(\mathbf{b}\). In the mean-field limit the \(k\)-marginals of the law, \(f^{(k)}_t(t,(\mathbf{x}_i)_i)\), converge to a tensorised product of \(f(t,\mathbf{x})\), in some \(d\)-metric topology, for any \(k\),
 
 $$ d(f^{(k)}_t,f(t)^{\otimes k})\to 0 \ \mathrm{as} \ N\to\infty.$$
 
-In general, this needs to be proven for the specific modelling choice for the drift function \(\mathbf{b}\). The density \(f\) is a solution of the mean-field limit PDE and is, in this case, of the form 
+In general, this needs to be proven for the specific modelling choice for the drift function \(\mathbf{b}\). The limit density \(f\) is a solution of the mean-field limit PDE and is, in this case, of the form 
 
 $$ \partial_t f=\nabla\cdot[\nabla f-\mathbf{b} f].$$
 </p>
@@ -61,7 +61,7 @@ The first is an aggregation type behaviour. The second is the formation of a tra
 </p>
 
 <p style='text-align: justify;'> 
-An interesting feature of the PDE for our ant model, and of many other PDEs used to study models of so-called <em>active matter</em> such as ants, birds and pedestrians, is that the PDE is different from a particular class of PDEs for which a substantial level of understanding has been achieved. This is the class PDEs that can be written in the form 
+An interesting feature of the PDE for our ant model, and of many other PDEs used to study models of so-called <em>active matter</em> such as groups of ants, birds and pedestrians, is that the PDE is different from a particular class of PDEs for which a substantial level of understanding has been achieved. This is the class of PDEs that can be written in the form 
 
 $$ \partial_t f=\nabla\cdot\left(f\frac{\delta\mathcal{F}}{\delta\mathcal{f}}\right),$$
 
@@ -69,15 +69,15 @@ where \(\mathcal{F}\) is a functional of \(f\). These are PDEs that can be descr
 </p>
 
 <p style='text-align: justify;'> 
-In our case, for active matter PDE models, the PDE cannot be of this form. To give an example of how gradient flow dynamics can be different from a model that is not of the above form, we can consider the following two linear models. The first model has a mean-field limit PDE of the form
+In our case, for active matter PDE models, the PDE cannot be of this form, because the curl of the drift function \(\matbf{b}\) is non-zero in our model. To give an example of how gradient flow dynamics can be different from a model that is not of the above form, we can consider the following two linear models. The first model has a mean-field limit PDE of the form
 
 $$ \partial_t f=\nabla\cdot[\nabla f-\nabla V f], $$
 
-where we have exponential relaxation to the unique normalised steady state \(f_\infty=\frac{1}{\int\mathrm{e}^V\mathrm{d}x}\mathrm{e}^V\) for some potential \(V(\mathbf{x})\), and the second model is 
+where we have exponential relaxation to the unique normalised steady state \(f_\infty(\mathbf{x})=\frac{1}{\int\mathrm{e}^V\mathrm{d}x}\mathrm{e}^{V(\mathbf{x})}\) for some potential \(V(\mathbf{x})\), and the second model is 
 
 $$ \partial_t f=\nabla\cdot[\nabla f-(\nabla V+ \mathbf{U})f], $$
 
-such that the perturbation \(\mathbf{U}\) satisfies \(\nabla\cdot\mathbf{U}=0\) and \(\mathbf{U}\perp\nabla V\), so that the steady state is preserved. The typical particle behaviour for these models is very different. In the below videos, the grey background hue is the amplitude of the steady state potential \(V(\mathbf{x})\).
+such that the perturbation \(\mathbf{U}\) satisfies \(\nabla\cdot\mathbf{U}=0\) and \(\mathbf{U}\perp\nabla V\), so that the steady state is preserved. The typical particle behaviour for these models is quite different. In the below videos, the grey background hue is the amplitude of the steady state potential \(V(\mathbf{x})\).
 </p>
 
 <p align="middle">
@@ -86,5 +86,5 @@ such that the perturbation \(\mathbf{U}\) satisfies \(\nabla\cdot\mathbf{U}=0\) 
 </p>
 
 <p style='text-align: justify;'> 
-In general, I am interested in studying these type of active matter models.
+In general, I am interested in studying these type of active matter models to understand emergent collective behaviours.
 </p>
