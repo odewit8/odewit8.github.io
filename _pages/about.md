@@ -39,7 +39,7 @@ In general, this needs to be proven for the specific modelling choice for the dr
 $$ \partial_t f=\nabla\cdot[\nabla f-\mathbf{b} f].$$
 </p>
 <p style='text-align: justify;'> 
-With this way that SDEs and PDEs that describe collective behaviour in mind, I focus on
+With this way that SDEs and PDEs describe collective behaviour in mind, I focus on
 <ul>
   <li>PDE analysis (well-posedness, (non)linear stability, bifurcations),</li>
   <li>Developing numerical PDE and SDE schemes,</li>
