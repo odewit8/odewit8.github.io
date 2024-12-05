@@ -75,7 +75,7 @@ $$ \partial_t f=\nabla\cdot[\nabla f-\nabla V f], $$
 
 where we have exponential relaxation to the unique normalised steady state \(f_\infty=\frac{1}{\int\mathrm{e}^V\mathrm{d}x}\mathrm{e}^V\) for some potential \(V(\mathbf{x})\), and the second model is 
 
-$$ \partial_t f=\nabla\cdot[\nabla f-(\nabla V+ \mathbf{U)f}], $$
+$$ \partial_t f=\nabla\cdot[\nabla f-(\nabla V+ \mathbf{U})f], $$
 
 such that the perturbation \(\mathbf{U}\) satisfies \(\nabla\cdot\mathbf{U}=0\) and \(\mathbf{U}\perp\nabla V\), so that the steady state is preserved. The typical particle behaviour for these models is very different. In the below videos, the grey background hue is the amplitude of the steady state potential \(V(\mathbf{x})\).
 </p>
