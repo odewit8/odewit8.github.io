@@ -11,7 +11,7 @@ About me
 ======
 <!-- <p style='text-align: justify;'> 
 </p> -->
-I am currently a final year PhD student at the University of Cambridge. In Cambridge, I am affiliated with the Department of Applied Mathematics and Theoretical Physics ([DAMTP](https://www.damtp.cam.ac.uk/)). In Oxford, I am a Recognised Visiting Student at the [Mathematical Institute](https://www.maths.ox.ac.uk/), where my PhD supervisor is, [Maria Bruna](https://people.maths.ox.ac.uk/bruna/). x
+I am currently a final year PhD student at the University of Cambridge. In Cambridge, I am affiliated with the Department of Applied Mathematics and Theoretical Physics ([DAMTP](https://www.damtp.cam.ac.uk/)). In Oxford, I am a Recognised Visiting Student at the [Mathematical Institute](https://www.maths.ox.ac.uk/), where my PhD supervisor is, [Maria Bruna](https://people.maths.ox.ac.uk/bruna/).
 
 Research
 ======
@@ -33,6 +33,6 @@ In my work I have studied a model for lane forming ants, together with my co-aut
 A main challenge in studying this model, and other models for active matter, is that it does not have a gradient flow structure,
 <p>$$ \partial_t f\neq\nabla\cdot(f\nabla U). $$</p>
 <p align="middle">
-  <img src="images/output.gif" width="200" />
-  <img src="images/output2.gif" width="200" /> 
+  <img src="images/output.gif" width="400" />
+  <img src="images/output2.gif" width="400" /> 
 </p>
