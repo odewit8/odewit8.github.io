@@ -69,7 +69,7 @@ where \(\mathcal{F}\) is a functional of \(f\). These are PDEs that can be descr
 </p>
 
 <p style='text-align: justify;'> 
-In our case, for active matter PDE models, the PDE cannot be of this form, because the curl of the drift function \(\matbf{b}\) is non-zero in our model. To give an example of how gradient flow dynamics can be different from a model that is not of the above form, we can consider the following two linear models. The first model has a mean-field limit PDE of the form
+In our case, for active matter PDE models, the PDE cannot be of this form, because the curl of the drift function \(\mathbf{b}\) is non-zero in our model. To give an example of how gradient flow dynamics can be different from a model that is not of the above form, we can consider the following two linear models. The first model has a mean-field limit PDE of the form
 
 $$ \partial_t f=\nabla\cdot[\nabla f-\nabla V f], $$
 
