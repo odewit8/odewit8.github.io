@@ -13,7 +13,7 @@ I am currently a final year PhD student at the University of Cambridge. In Cambr
 
 <h1>Research</h1>
 <p style='text-align: justify;'> 
-I am interested in mathematically understanding the emergence of collective behaviour in groups of animals. Examples of this emergent behaviour are lane formation in groups of ants or pedestrians, or flocking in birds.
+I am interested in mathematically understanding the emergence of collective behaviour. Examples of this emergent behaviour are lane formation in groups of ants or pedestrians, or flocking in birds.
 </p>
 <iframe src="https://giphy.com/embed/KJQva3zYQ2rni" width="480" height="269" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/tokyo-crossing-shibuya-KJQva3zYQ2rni">Street crossing in Tokyo</a></p>
 <p style='text-align: justify;'> 
