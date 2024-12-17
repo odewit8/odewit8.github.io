@@ -26,17 +26,18 @@ I specialize in studying these phenomena using
 Particularly, I am interested in modelling large collectives of animals as stochastic interacting particle systems and studying them in the <em>mean-field</em> limit. This limit gives a description of the particle model by going from the \(N\times d\)-dimesional SDE model to a \(d\)-dimensional PDE model, called the <em>mean-field limit PDE</em>, by taking the number of particles to infinity, \(N\to\infty\). Using the mean-field limit PDE, particle behaviours like lane formation can be studied as a dynamics of this mean-field limit PDE.
 </p>
 <p style="text-align: justify; border: 2px solid black; padding: 0.5em"> 
-Schematically, I consider systems of SDEs which can be written as
+Schematically, I consider \(\mathbb{R}\)-valued systems of SDEs which can be written as
 
-$$ \mathrm{d}\mathbf{X}_t^i=\sum_{j\neq i}\mathbf{b}(\mathbf{X}_t^i,\mathbf{X}_t^j)\mathrm{d}t+\sqrt{2}\mathrm{d}\mathbf{W}_t^i, \ i=1,\dots,N $$
+$$ \mathrm{d}\mathbf{X}^{i,N}_t=\mathbf{b}^N(\mathbf{X}^{i,N}_t,\mathbf{X}_t^N)\mathrm{d} t+\sqrt{2}\mathrm{d}\mathbf{W}_t^{i,N}, \ i=1,\dots,N $$
 
-for some drift function \(\mathbf{b}\). In the mean-field limit the \(k\)-marginals of the law, \(f^{(k)}_t(t,(\mathbf{x}_i)_i)\), converge to a tensorised product of \(f(t,\mathbf{x})\), in some \(d\)-metric topology, for any \(k\),
+for some drift function \(\mathbf{b}^N\). In the mean-field limit the \(k\)-marginals of the law, \(f^{(k)}_t(t,(\mathbf{x}_i)_i)\), converge to a tensorised product of \(f(t,\mathbf{x})\), in some \(d\)-metric topology, for any \(k\),
 
 $$ d(f^{(k)}_t,f(t)^{\otimes k})\to 0 \ \mathrm{as} \ N\to\infty.$$
 
-In general, this needs to be proven for the specific modelling choice for the drift function \(\mathbf{b}\). The limit density \(f\) is a solution of the mean-field limit PDE and is, in this case, of the form 
+In general, this needs to be proven for the specific modelling choice for the drift function \(\mathbf{b}^N\). The limit density \(f\) is a solution of the mean-field limit PDE and is, in this case, of the form 
 
-$$ \partial_t f=\nabla\cdot[\nabla f-\mathbf{b} f].$$
+$$ \partial_t f=\nabla\cdot[\nabla f-\mathbf{b} f],$$
+if the limit \(b=\lim_{N\to\infty} b^N\) exists.
 </p>
 <p style='text-align: justify;'> 
 With this way that SDEs and PDEs describe collective behaviour in mind, I focus on
@@ -63,7 +64,7 @@ The first is an aggregation type behaviour. The second is the formation of a tra
 <p style='text-align: justify;'> 
 An interesting feature of the PDE for our ant model, and of many other PDEs used to study models of so-called <em>active matter</em> such as groups of ants, birds and pedestrians, is that the PDE is different from a particular class of PDEs for which a substantial level of understanding has been achieved. This is the class of PDEs that can be written in the form 
 
-$$ \partial_t f=\nabla\cdot\left(f\frac{\delta\mathcal{F}}{\delta\mathcal{f}}\right),$$
+$$ \partial_t f=\nabla\cdot\left(f\nabla\frac{\delta\mathcal{F}}{\delta\mathcal{f}}\right),$$
 
 where \(\mathcal{F}\) is a functional of \(f\). These are PDEs that can be described as a <em>gradient flow</em> and the functional \(\mathcal{F}\) can be used to describe the PDE dynamics via a LaSalle Invariance Principle (see, for example, this <a href="https://doi.org/10.1016/j.jde.2022.11.028">paper</a>).
 </p>
