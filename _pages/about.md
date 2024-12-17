@@ -37,7 +37,7 @@ $$ d(f^{(k)}_t,f(t)^{\otimes k})\to 0 \ \mathrm{as} \ N\to\infty.$$
 In general, this needs to be proven for the specific modelling choice for the drift function \(\mathbf{b}^N\). The limit density \(f\) is a solution of the mean-field limit PDE and is, in this case, of the form 
 
 $$ \partial_t f=\nabla\cdot[\nabla f-\mathbf{b} f],$$
-if the limit \(b=\lim_{N\to\infty} b^N\) exists.
+if the limit \(\mathbf{b}=\lim_{N\to\infty} \mathbf{b}^N\) exists.
 </p>
 <p style='text-align: justify;'> 
 With this way that SDEs and PDEs describe collective behaviour in mind, I focus on
