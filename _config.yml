@@ -24,11 +24,11 @@ author:
   avatar           : "ccimiphotocrop.jpg"
   name             : "Oscar de Wit"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student"
-  location         : "Oxford, UK"
-  employer         : "University of Cambridge"
+  bio              : "Postdoc"
+  location         : "Lyon, France"
+  employer         : "ICJ"
   uri              : # URL
-  email            : "od275@cam.ac.uk" 
+  email            : "dewit@math.univ-lyon1.fr" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
