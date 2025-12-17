@@ -8,7 +8,10 @@ redirect_from:
 ---
 
 <!-- {% include base_path %} -->
-
+Jobs
+======
+* Postdoc, Institut Camille Jordan, Université Claude Bernard Lyon 1
+---
 Education
 ======
 * PhD, Mathematics, University of Cambridge, DAMTP, "Mathematics of Information" doctoral training programme of Cantab Capital Institute for Mathematics of Information (CCIMI), 2021-2025
