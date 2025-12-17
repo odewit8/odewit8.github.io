@@ -53,17 +53,16 @@ With this way that SDEs and PDEs describe collective behaviour in mind, I focus 
   <li>SDE parameter inference from data.</li>
 </ul> 
 
-In my work I have studied a model for lane forming ants, together with my co-authors (see <a href="https://odewit8.github.io/publications/">Publications</a> for a link to the paper). 
+In my work I have studied a model for lane forming ants, together with my co-authors (see <a href="https://odewit8.github.io/publications/">Publications</a> for links to papers). 
 </p>
-<!-- We found the following two typical behaviours.
+We found the following two typical behaviours.
 <p align="middle">
-  <img src="images/clusters.gif" width="300" />
-  <img src="images/clusters2.gif" width="300" /> 
+  <img src="images/cluster11.gif" width="300" />
+  <img src="images/lanes11.gif" width="300" /> 
 </p>
-
-<!-- <p style='text-align: justify;'> 
-The first is an aggregation type behaviour. The second is the formation of a traveling cluster. In the paper we explain how this is related to lane formation and ant antennas.
-</p> -->
+<p style='text-align: justify;'> 
+The first is an aggregation type behaviour. The second is the formation of an ant lane. In the papers, we explain how this is related to lane formation and ant antennas.
+</p>
 
 <p style='text-align: justify;'> 
 An interesting feature of the PDE for our ant model, and of many other PDEs used to study models of so-called <em>active matter</em> such as groups of ants, birds and pedestrians, is that the PDE is different from a particular class of PDEs for which a substantial level of understanding has been achieved. This is the class of PDEs that can be written in the form 
