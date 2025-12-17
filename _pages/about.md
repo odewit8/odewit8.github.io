@@ -13,7 +13,7 @@ I am currently a postdoc at the <a href="https://math.univ-lyon1.fr/icj/">Instit
 </p>
 
 <p style='text-align: justify;'> 
-The title of my PhD thesis is <em>Collective behaviour of active particles with mean-field interaction</em>. I did my PhD at the University of Cambridge, where I was affiliated with the Department of Applied Mathematics and Theoretical Physics  (<a href="https://www.damtp.cam.ac.uk/">DAMTP</a>), under supervision of <a href="https://people.maths.ox.ac.uk/bruna/">Maria Bruna</a>. In 2024-2025, I was a Recognised Visiting Student at the <a href="https://www.maths.ox.ac.uk/">Mathematical Institute</a> at the University of Oxford.</p>
+The title of my PhD thesis is <a href="https://doi.org/10.17863/CAM.124054"><em>Collective behaviour of active particles with mean-field interaction</em></a>. I did my PhD at the University of Cambridge, where I was affiliated with the Department of Applied Mathematics and Theoretical Physics  (<a href="https://www.damtp.cam.ac.uk/">DAMTP</a>), under supervision of <a href="https://people.maths.ox.ac.uk/bruna/">Maria Bruna</a>. In 2024-2025, I was a Recognised Visiting Student at the <a href="https://www.maths.ox.ac.uk/">Mathematical Institute</a> at the University of Oxford.</p>
 
 <h1>Research</h1>
 <p style='text-align: justify;'> 
