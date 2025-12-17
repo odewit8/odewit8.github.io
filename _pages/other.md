@@ -9,5 +9,5 @@ author_profile: true
 Back in 2018 I did some hobby projects, inspired by undergraduate classes on algorithms. Below is an implementation of the A* algorithm. See my <a href="https://github.com/scraos">old</a> github for more projects like this.
 </p>
 <p align="center">
-  <img src="images/astar.gif" width="400" />
+  <img src="/images/astar.gif" width="400" />
 </p>
