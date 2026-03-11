@@ -39,3 +39,6 @@ We found the following two typical behaviours.
 <p style='text-align: justify;'> 
 The first is an aggregation type behaviour. The second is the formation of an ant lane. In the papers, we explain how this is related to lane formation and ant antennas.
 </p>
+<p style='text-align: justify;'> 
+Email: dewit"at"math.univ-lyon1.fr.
+</p>
