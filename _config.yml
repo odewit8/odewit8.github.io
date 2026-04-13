@@ -21,12 +21,12 @@ repository               : #
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ccimiphotocrop.jpg"
+  avatar           : "oscar1.jpeg"
   name             : "Oscar de Wit"
   pronouns         : # example: "she/her"  
   bio              : "Postdoc"
   location         : "Lyon, France"
-  employer         : "ICJ"
+  employer         : <a href="https://math.univ-lyon1.fr/icj/">Institut Camille Jordan</a>
   uri              : # URL
   email            : # "odewit8@gmail.com" 
 
