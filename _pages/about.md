@@ -9,7 +9,7 @@ redirect_from:
 
 <h1>About me</h1>
 <p style='text-align: justify;'> 
-I am a postdoc at the <a href="https://math.univ-lyon1.fr/icj/">Institut Camille Jordan</a> at the Université Claude Bernard Lyon 1.
+I am a postdoc at the <a href="https://math.univ-lyon1.fr/icj/">Institut Camille Jordan</a> at the Université Claude Bernard Lyon 1, with the <i>Probabilités, statistique, physique mathématique</i> (<a href="https://math.univ-lyon1.fr/icj/probabilites-statistique-physique-mathematique/">PSPM</a>) team, with <a href="http://math.univ-lyon1.fr/~poquet/">Christophe Poquet</a>.
 </p>
 
 <p style='text-align: justify;'> 
