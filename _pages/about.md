@@ -13,7 +13,7 @@ I am a postdoc at the <a href="https://math.univ-lyon1.fr/icj/">Institut Camille
 </p>
 
 <p style='text-align: justify;'> 
-The title of my PhD thesis is <a href="https://doi.org/10.17863/CAM.124054"><em>Collective behaviour of active particles with mean-field interaction</em></a>.</p>
+The title of my PhD thesis is <a href="https://doi.org/10.17863/CAM.124054"><em>Collective behaviour of active particles with mean-field interaction</em></a>, which was written under supervision of <a href="https://people.maths.ox.ac.uk/bruna/">Maria Bruna</a>.</p>
 
 <h1>Research</h1>
 <p style='text-align: justify;'> 
